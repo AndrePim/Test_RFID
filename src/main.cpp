@@ -16,8 +16,8 @@
 #include <SPI.h>
 #include <MFRC522.h> // Библиотека для RFID
 
-#define SS_PIN 10                 // Определение пина SDA
-#define RST_PIN 9                 // Определение пина RST
+#define SS_PIN 53                 // Определение пина SDA
+#define RST_PIN 5                 // Определение пина RST
 MFRC522 mfrc522(SS_PIN, RST_PIN); // Создание экземпляра класса MFRC522
 
 void setup()
